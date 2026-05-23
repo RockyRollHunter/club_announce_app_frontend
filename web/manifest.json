@@ -1,6 +1,6 @@
 {
-    "name": "club_announce_app",
-    "short_name": "club_announce_app",
+    "name": "In_Sync",
+    "short_name": "In_Sync",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
