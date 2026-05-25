@@ -5,7 +5,7 @@ import '../models/registration.dart';
 import '../models/canteen.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://127.0.0.1:8000/api/';
+  static const String baseUrl = 'https://club-announcement-backend.onrender.com/api/';
 
   Future<List<Event>> fetchEvents() async {
     final response = await http.get(Uri.parse('${baseUrl}events/'));
